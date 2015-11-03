@@ -1,0 +1,9 @@
+Sub TestMacro()
+    '
+    ' TestMacro Macro
+    '
+
+    '
+    Range("A2").Select
+    ActiveCell.FormulaR1C1 = "This is from a macro"
+End Sub
